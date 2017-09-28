@@ -1,0 +1,30 @@
+{
+  "name": "risingstack-bootcamp",
+  "version": "1.0.0",
+  "description": "RisingStack Bootcamp exercises",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/",
+    "test": "mocha --recursive ./src/",
+    "migrate-db": "node scripts/migrate-db.js"
+  },
+  "author": "Nauzet Hernandez <nauzethc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "joi": "^11.1.1",
+    "knex": "^0.13.0",
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "lodash": "^4.17.4",
+    "pg": "^7.3.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.5.3",
+    "nock": "^9.0.21"
+  }
+}
